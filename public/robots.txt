@@ -1,0 +1,10 @@
+# Her Village
+# SEO-friendly robots.txt
+
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /auth/
+Disallow: /_nuxt/
+
+Sitemap: https://her-village.org/sitemap.xml
