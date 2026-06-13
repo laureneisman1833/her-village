@@ -1,0 +1,83 @@
+export const products = [
+  {
+    id: 'raw-almonds',
+    category: 'almonds',
+    name: 'Raw Organic Almonds (2lb)',
+    tagline: 'Perfect for homemade almond milk',
+    price: '$16.00',
+    amazonUrl: 'https://amzn.to/4cM9XqK',
+    image: null,
+    description: 'Sourced from trusted organic farms. These raw almonds are non-GMO, unpasteurized, and perfect for making your own almond milk at home — just like I do for my own family every week.',
+    features: [
+      'Certified organic',
+      'Non-GMO & unpasteurized',
+      'Perfect for almond milk',
+      'Resealable kraft bag',
+      'What I personally use at home',
+    ],
+    badge: 'Top Seller',
+  },
+  {
+    id: 'raw-almonds-bulk',
+    category: 'almonds',
+    name: 'Raw Organic Almonds (5lb Bulk)',
+    tagline: 'Best value for weekly almond milk',
+    price: '$34.00',
+    amazonUrl: 'https://amzn.to/4cM9XqK',
+    image: null,
+    description: 'Our most popular bulk size. If you make almond milk weekly (and once you start, you will), this is the smartest way to buy. Same premium quality, better value.',
+    features: [
+      'Best value per pound',
+      'Same premium quality',
+      'Bulk storage bag',
+      'Perfect for weekly almond milk',
+      'What I stock in my own pantry',
+    ],
+    badge: 'Best Value',
+  },
+  {
+    id: 'single-ingredient-skincare',
+    category: 'skincare',
+    name: 'Organic Cold-Pressed Jojoba Oil',
+    tagline: 'One ingredient. Endless uses.',
+    price: '$24.00',
+    amazonUrl: 'https://amzn.to/4cM9XqK',
+    image: null,
+    description: 'Pure, single-ingredient jojoba oil — no additives, no preservatives, no fragrance. Use it as a facial moisturizer, makeup remover, hair treatment, or body oil. This is the only skincare product I use daily.',
+    features: [
+      '100% pure jojoba oil',
+      'Single ingredient — nothing else',
+      'Cold-pressed & unrefined',
+      'Glass bottle',
+      'The only moisturizer I trust',
+    ],
+    badge: 'My Personal Favorite',
+  },
+  {
+    id: 'almond-milk-bag',
+    category: 'kitchen',
+    name: 'Premium Nut Milk Bag',
+    tagline: 'The tool I use every almond milk day',
+    price: '$10.00',
+    amazonUrl: 'https://amzn.to/4cM9XqK',
+    image: null,
+    description: 'A fine-mesh, reusable nut milk bag makes all the difference between creamy almond milk and a frustrating mess. This is the exact one I use. Washable, durable, and compostable at end of life.',
+    features: [
+      'Fine-mesh reusable bag',
+      'Dishwasher safe',
+      'Compostable packaging',
+      'Also works for cold brew coffee',
+      'The one I use in my kitchen',
+    ],
+    badge: 'Kitchen Essential',
+  },
+]
+
+export const categories = [
+  { id: 'all', name: 'All Products' },
+  { id: 'almonds', name: 'Raw Almonds' },
+  { id: 'skincare', name: 'Skincare' },
+  { id: 'kitchen', name: 'Kitchen Tools' },
+]
+
+export const featuredProducts = ['raw-almonds', 'single-ingredient-skincare', 'almond-milk-bag']
